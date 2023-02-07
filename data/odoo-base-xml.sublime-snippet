@@ -2,15 +2,15 @@
     <content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
 
-<openerp>
+<odoo>
     <data noupdate="${1:1}">
 
         ${0}
 
     </data>
-</openerp>
+</odoo>
 ]]></content>
-    <tabTrigger>odoo</tabTrigger>
+    <tabTrigger>odoo_data</tabTrigger>
     <scope>text.xml</scope>
     <description>Common base XML structure to be used in Odoo module data files</description>
 </snippet>

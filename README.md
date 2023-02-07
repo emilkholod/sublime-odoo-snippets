@@ -8,7 +8,7 @@ This plugin is not available in common Sublime repository, you will need to add 
 
 1. Goto **Preferences**->**Package Control**
 1. Click in **Add Repository**
-1. Adds the following URL: [https://github.com/sotogarcia/sublime-odoo-snippets](https://github.com/sotogarcia/sublime-odoo-snippets) and press **enter**.
+1. Adds the following URL: [https://github.com/emilkholod/sublime-odoo-snippets](https://github.com/emilkholod/sublime-odoo-snippets) and press **enter**.
 
 ### The pluggin
 
@@ -22,7 +22,7 @@ This plugin is not available in common Sublime repository, you will need to add 
 
 ## Snippets available
 
-> See the [wiki](https://github.com/sotogarcia/sublime-odoo-snippets/wiki)
+> See the [wiki](https://github.com/emilkholod/sublime-odoo-snippets/wiki)
 
 ## Commands
 
