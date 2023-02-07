@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+access_${10:model-name}_${20:group-name_short},access_${30:model-module_name}_${10:model-name} ${20:group-name_short},model_${10:model-name},${40:group-name-full},1,1,1,1
+]]></content>
+    <tabTrigger>odoo_access_to_model_inner</tabTrigger>
+    <scope>text.csv</scope>
+    <description>CSV ir.model.access record</description>
+</snippet>
+
+
