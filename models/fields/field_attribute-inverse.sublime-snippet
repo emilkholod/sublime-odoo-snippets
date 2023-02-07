@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-inverse=lambda self: self._inverse_${1:field}()${0}
+inverse="_inverse_${1:field}"${0}
 ]]></content>
-    <tabTrigger>odoo_inverse</tabTrigger>
+    <tabTrigger>odoo_inverse_attr</tabTrigger>
     <scope>source.python</scope>
-    <description>Field attribute: inverse, lambda function</description>
+    <description>Field attribute: inverse</description>
 </snippet>

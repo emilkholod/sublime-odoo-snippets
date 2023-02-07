@@ -1,6 +1,5 @@
 <snippet>
     <content><![CDATA[
-@api.multi
 def unlink(self):
     """
         Delete all record(s) from recordset
@@ -15,7 +14,7 @@ def unlink(self):
 
     return result
 ]]></content>
-    <tabTrigger>crud</tabTrigger>
+    <tabTrigger>odoo_unlink</tabTrigger>
     <scope>source.python</scope>
     <description>unlink method signature</description>
 </snippet>
