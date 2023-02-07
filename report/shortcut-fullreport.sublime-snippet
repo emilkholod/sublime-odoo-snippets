@@ -16,8 +16,8 @@
     <field name="model">${3/(.)/\1/g}</field>
     <field name="type">qweb</field>
     <field name="mode">primary</field>
-    <field name="priority" eval="${7/(.)/\1/g}" />
-    <field name="active" eval="${8/(.)/\1/g}" />
+    <field name="priority" eval="${7/(.)/\1/g}"/>
+    <field name="active" eval="${8/(.)/\1/g}"/>
     <field name="arch" type="xml">
         <t t-name="${2/(.)/\1/g}.view_${3/\./\_/g}_document_qweb">
             <t t-call="report.external_layout">
@@ -36,8 +36,8 @@
     <field name="model">${3/(.)/\1/g}</field>
     <field name="type">qweb</field>
     <field name="mode">primary</field>
-    <field name="priority" eval="${7/(.)/\1/g}" />
-    <field name="active" eval="${8/(.)/\1/g}" />
+    <field name="priority" eval="${7/(.)/\1/g}"/>
+    <field name="active" eval="${8/(.)/\1/g}"/>
     <field name="arch" type="xml">
         <t t-name="${2/(.)/\1/g}.view_${3/\./\_/g}_qweb">
             <t t-call="report.html_container">
@@ -55,18 +55,18 @@
     <field name="model">${3/(.)/\1/g}</field>
     <field name="report_type">qweb-pdf</field>
     <field name="report_name">${2/(.)/\1/g}.view_${3/\./\_/g}_qweb</field>
-    <field name="attachment_use" eval="${5/(.)/\1/g}" />
+    <field name="attachment_use" eval="${5/(.)/\1/g}"/>
     <field name="attachment">(object.name+'.pdf')</field>
-    <field name="paperformat_id" ref="${6/(.)/\1/g}" />
+    <field name="paperformat_id" ref="${6/(.)/\1/g}"/>
     <field name="help">${9/(.)/\1/g}</field>
 </record>
 
 <!-- Button to print the report: "${1/(.)/\1/g}" -->
 <record id="${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_values" model="ir.values">
     <field name="name">${1/(.)/\1/g}</field>
-    <field name="model_id" ref="${2/(.)/\1/g}.model_${3/\./\_/g}" />
+    <field name="model_id" ref="${2/(.)/\1/g}.model_${3/\./\_/g}"/>
     <field name="model">${3/(.)/\1/g}</field>
-    <field name="value" eval="'ir.actions.report.xml,' +str(ref('action_report_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}'))" />
+    <field name="value" eval="'ir.actions.report.xml,' +str(ref('action_report_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}'))"/>
     <field name="key">action</field>
     <field name="key2">client_print_multi</field>
 </record>

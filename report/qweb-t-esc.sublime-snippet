@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<t t-esc="${1:value}" />
+<t t-esc="${1:value}"/>
 ]]></content>
     <tabTrigger>t-esc</tabTrigger>
     <scope>text.xml</scope>

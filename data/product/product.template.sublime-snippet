@@ -11,7 +11,7 @@
     <field name="type">${8:consu|service}</field>
     <field name="uom_id" ref="${9:product.uom}"/>
     <field name="uom_po_id" ref="${10:product.uom}"/>
-    <field name="taxes_id" eval="[(4, ref('${11:account.tax}'))]" />
+    <field name="taxes_id" eval="[(4, ref('${11:account.tax}'))]"/>
 ${13:    <field name="image" type="base64" file="${12:module_name/static/img/file_name.png}"/>
 }${15:    <field name="default_code">${14:PRODUCT-CODE}</field>
 }${17:    <field name="ean13">${16:0000000000000}</field>

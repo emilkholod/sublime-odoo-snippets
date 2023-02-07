@@ -4,8 +4,8 @@
     <field name="name">${1:Human readable name}</field>
     <field name="type">${2:manual}</field>
     <field name="state">${3:open}</field>
-    <field name="sequence" eval="${4:10}" />
-    <field name="action_id" ref="${5:ir.actions.actions}" />${7:
+    <field name="sequence" eval="${4:10}"/>
+    <field name="action_id" ref="${5:ir.actions.actions}"/>${7:
     <field name="note">${6:Something about ${1}}</field>}
 </record>${0}
 ]]></content>

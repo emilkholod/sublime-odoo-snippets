@@ -5,9 +5,9 @@
     <field name="model">${2:model.name}</field>
     <field name="report_type">${3:qweb-pdf}</field>
     <field name="report_name">${4:out_filename}</field>
-    <field name="attachment_use" eval="${5:True}" />
+    <field name="attachment_use" eval="${5:True}"/>
     <field name="attachment">${6:(object.name+'.pdf')}</field>
-    <field name="paperformat_id" ref="${7:report.paperformat_euro}" />${9:
+    <field name="paperformat_id" ref="${7:report.paperformat_euro}"/>${9:
     <field name="help">${8:Something about ${1}}</field>}
 </record>${0}
 ]]></content>

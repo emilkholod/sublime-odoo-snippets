@@ -4,17 +4,17 @@
     <field name="name">${1:Human readable name}</field>
     <field name="format">${2:A4}</field>
     <field name="orientation">${3:Portrait}</field>
-    <field name="default" eval="${4:False}" />
-    <field name="dpi" eval="${5:90}" />
-    <field name="margin_top" eval="${6:40}" />
-    <field name="margin_right" eval="${7:7}" />
-    <field name="margin_bottom" eval="${8:20}" />
-    <field name="margin_left" eval="${9:7}" />
-    <field name="header_line" eval="${10:False}" />
-    <field name="header_spacing" eval="${11:35}" />${13:
-    <field name="page_width" eval="${12:210}" />}${15:
-    <field name="page_height" eval="${14:297}" />}${17:
-    <field name="report_ids" eval="[(4, ref('${16:ir.actions.report.xml}'))]" />}${0}
+    <field name="default" eval="${4:False}"/>
+    <field name="dpi" eval="${5:90}"/>
+    <field name="margin_top" eval="${6:40}"/>
+    <field name="margin_right" eval="${7:7}"/>
+    <field name="margin_bottom" eval="${8:20}"/>
+    <field name="margin_left" eval="${9:7}"/>
+    <field name="header_line" eval="${10:False}"/>
+    <field name="header_spacing" eval="${11:35}"/>${13:
+    <field name="page_width" eval="${12:210}"/>}${15:
+    <field name="page_height" eval="${14:297}"/>}${17:
+    <field name="report_ids" eval="[(4, ref('${16:ir.actions.report.xml}'))]"/>}${0}
 </record>
 ]]></content>
     <tabTrigger>report.paperformat</tabTrigger>

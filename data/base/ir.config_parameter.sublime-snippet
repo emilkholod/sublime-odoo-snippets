@@ -3,7 +3,7 @@
 <record id="${1/[^A-Za-z]/\_/g}" model="ir.config_parameter">
     <field name="key">${1:char}</field>
     <field name="value">${2:text}</field>${4:
-    <field name="group_ids" eval="[(4, ref('${3:res.groups}'))]" />}
+    <field name="group_ids" eval="[(4, ref('${3:res.groups}'))]"/>}
 </record>${0}
 ]]></content>
     <tabTrigger>ir.config_parameter</tabTrigger>
