@@ -2,7 +2,7 @@
     <content><![CDATA[
 compute=lambda self: self._compute_${1:field}()${0}
 ]]></content>
-    <tabTrigger>compute</tabTrigger>
+    <tabTrigger>odoo_compute</tabTrigger>
     <scope>source.python</scope>
     <description>Field attribute: compute, lambda function</description>
 </snippet>
