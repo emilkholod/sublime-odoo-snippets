@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
-class ${1:ModelName}(models.Model):
+class ${1:ModelName}(models.AbstractModel):
     _name = "${3:${1/((^[A-Z_])|([A-Z_]))/(?2:\l$2)(?3:\.\l$3)/g}}"
     _description = "${4:${1/((^[A-Z_])|([A-Z_]))/(?2:\u$2)(?3:\ \l$3)/g}}"
 
     name = fields.Char()${0}
 ]]></content>
-    <tabTrigger>odoo_class_model</tabTrigger>
+    <tabTrigger>odoo_class_abstract</tabTrigger>
     <scope>source.python</scope>
-    <description>Odoo generic model class</description>
+    <description>Odoo generic abstract model class</description>
 </snippet>
