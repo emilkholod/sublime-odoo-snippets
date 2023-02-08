@@ -1,17 +1,10 @@
 <snippet>
     <content><![CDATA[
 def unlink(self):
-    """
-        Delete all record(s) from recordset
-        return True on success, False otherwise
-
-        @return: True on success, False otherwise
-
-        #TODO: process before delete resource
-    """
-
-    result = super(${1:ModelName}, self).unlink()${0}
-
+    '''
+    # TODO:
+    '''
+    result = super().unlink()${0}
     return result
 ]]></content>
     <tabTrigger>odoo_unlink</tabTrigger>

@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-@api.onchange("${1:field}")
+@api.onchange('${1:field}')
 def _onchange_${1}(self):
-    """
+    '''
     Onchange ${1} field
-    """
+    '''
     ${3:self.${2:field} = self.${1}}
 ${0}
 ]]></content>

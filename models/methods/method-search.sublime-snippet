@@ -2,6 +2,9 @@
 	<content><![CDATA[
 @api.model
 def _search_${1: field}(self, operator, value):
+    '''
+    # TODO:
+    '''
     return [('${2:related}', operator, value)]${0}
 ]]></content>
     <tabTrigger>odoo_search</tabTrigger>

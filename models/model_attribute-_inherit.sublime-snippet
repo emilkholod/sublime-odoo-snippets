@@ -1,8 +1,9 @@
 <snippet>
     <content><![CDATA[
-_inherit = ['${1:ir.model}'${2}]${0}
+_name = '${1:model_name}'
+_inherit = '${2:res_model}'${0}
 ]]></content>
-    <tabTrigger>_inherit</tabTrigger>
+    <tabTrigger>odoo_inherit_attr</tabTrigger>
     <scope>source.python</scope>
     <description>Model attribute _inherit with a module list</description>
 </snippet>

@@ -1,22 +1,13 @@
 <snippet>
     <content><![CDATA[
-${1:field_name} = fields.Many2many(
+${1:field_name}_ids = fields.Many2many(
     comodel_name='${2:model.name}',
-    relation='${3:${2/\./_/g}_this_model_rel}',
-    column1='${4:${2/\./_/g}_id}',
-    column2='${5:this_model_id}',
-    string='${6:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ $4)/g}}',
-    required=${7:False},
-    readonly=${8:False},
-    index=${9:False},
-    default=${10:None},
-    help=${11:False},
-    domain=[${12}],
-    context=\{${13}\},
-    limit=${14:None},
+    relation='${3:${2/\./_/g}}_${4:this_model}_rel',
+    column1='${5:${2/\./_/g}_id}',
+    column2='${6:${4}}',
 )${0}
 ]]></content>
-    <tabTrigger>fields.Many2many</tabTrigger>
+    <tabTrigger>odoo_fields_m2m</tabTrigger>
     <scope>source.python</scope>
     <description>Common definition for field type Many2many</description>
 </snippet>

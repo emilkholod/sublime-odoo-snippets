@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-@api.onchange("${1:field}")
+@api.onchange('${1:field}')
 def _onchange_${1}(self):
-    """
+    '''
     Onchange ${1} field
-    """
+    '''
     return {
-        "warning": {
-            "title": "${2:Text of the title}",
-            "message": "${3:Text of the message}",
+        'warning': {
+            'title': '${2:Text of the title}',
+            'message': '${3:Text of the message}',
         }
     }${0}
 ]]></content>
