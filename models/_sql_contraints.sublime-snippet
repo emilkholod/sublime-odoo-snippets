@@ -1,14 +1,8 @@
 <snippet>
     <content><![CDATA[
-_sql_constraints = [
-    (
-        '${1:name}',
-        '${2:constraint}',
-        _(u'${3:message}')
-    )${4}
-]${0}
+_sql_constraints = [('${1:name}', '${2:constraint}', _('${3:message}'))${4}]${0}
 ]]></content>
-    <tabTrigger>_sql_constraints</tabTrigger>
+    <tabTrigger>odoo_sql_constraint</tabTrigger>
     <scope>source.python</scope>
     <description>Module SQL contraints</description>
 </snippet>

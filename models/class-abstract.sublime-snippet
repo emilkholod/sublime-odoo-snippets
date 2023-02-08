@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 class ${1:ModelName}(models.AbstractModel):
-    _name = "${3:${1/((^[A-Z_])|([A-Z_]))/(?2:\l$2)(?3:\.\l$3)/g}}"
-    _description = "${4:${1/((^[A-Z_])|([A-Z_]))/(?2:\u$2)(?3:\ \l$3)/g}}"
+    _name = "${3:${1/((^[A-Z])|([A-Z])|(_))/(?2:\l$2)(?3:\.\l$3)(?4.)/g}}"
+    _description = "${4:${1/((^[A-Z])|([A-Z])|(_))/(?2:\u$2)(?3:\ \l$3)(?4 )/g}}"
 
     name = fields.Char()${0}
 ]]></content>

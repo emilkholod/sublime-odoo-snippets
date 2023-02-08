@@ -1,20 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:field_name} = fields.Many2one(
+${1:field_name}_id = fields.Many2one(
     comodel_name='${2:model.name}',
-    string='${3:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ $4)/g}}',
-    required=${4:False},
-    readonly=${5:False},
-    index=${6:False},
-    default=${7:None},
-    help=${8:False},
-    domain=[${9}],
-    context=\{${10}\},
-    ondelete='${11:cascade}',
-    auto_join=${12:False},
 )${0}
 ]]></content>
-    <tabTrigger>fields.Many2one</tabTrigger>
+    <tabTrigger>odoo_fields_m2o</tabTrigger>
     <scope>source.python</scope>
     <description>Common definition for field type Many2one</description>
 </snippet>

@@ -1,16 +1,13 @@
 <snippet>
     <content><![CDATA[
 ${1:field_name} = fields.Selection(
-    selection=[('${2:valor1}', '${3:${2/(.)(.+)/\u$1$2/g}}'), ('${4:valor2}', '${5:${4/(.)(.+)/\u$1$2/g}}')]
-    string='${6:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ $4)/g}}',
-    required=${7:False},
-    readonly=${8:False},
-    index=${9:False},
-    default=${10:False},
-    help=${11:False},
+    selection=[
+        ('${2:key1}', '${3:${2/(.)(.+)/\u$1$2/g}}'),
+        ('${4:key2}', '${5:${4/(.)(.+)/\u$1$2/g}}'),
+    ],
 )${0}
 ]]></content>
-    <tabTrigger>fields.Selection</tabTrigger>
+    <tabTrigger>odoo_fields_selection</tabTrigger>
     <scope>source.python</scope>
     <description>Common definition for field type Seleccion</description>
 </snippet>
