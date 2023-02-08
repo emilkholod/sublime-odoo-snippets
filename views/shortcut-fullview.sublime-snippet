@@ -87,7 +87,7 @@
 </record>
 
 <!-- Main menu for model.name -->
-<record id="menu_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="ir.ui.menu" >
+<record id="menu_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="ir.ui.menu">
     <field name="name">${1/(.)/\1/g}</field>
     <field name="sequence" eval="${8/(.)/\1/g}"/>
     <field name="action" ref="action_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_act_window"/>
