@@ -1,9 +1,7 @@
 <snippet>
     <content><![CDATA[
-<notebook>
-    ${0}
-</notebook>
+domain="[('$1', '=', $2)]"
 ]]></content>
-    <tabTrigger>notebook</tabTrigger>
+    <tabTrigger>odoo_domain</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

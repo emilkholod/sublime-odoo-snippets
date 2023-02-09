@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<page string="$1">
+    <group>
+        <field name="$2"/>
+    </group>
+</page>
+]]></content>
+    <tabTrigger>odoo_page</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Add page tag</description>
+</snippet>

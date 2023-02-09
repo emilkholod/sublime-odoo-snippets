@@ -1,10 +1,20 @@
 <snippet>
     <content><![CDATA[
-<search string="${1:Name}">
-    ${0}
-</search>
+<record id="${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_view_search" model="ir.ui.view">
+    <field name="name">${1}.view.search</field>
+    <field name="model">${1:model.name}</field>
+    <field name="arch" type="xml">
+        <search string="$3">
+            <field name="$4"/>
+            <filter name="$5" string="$6" domain="[(\'$7\', \'=\', $8)]"/>
+            <group string="Group By">
+                <filter name="$9" string="$10" domain="[]"  context="{'group_by':\'$11\'}"/>
+            </group>${0}
+        </search>
+    </field>
+</record>
 ]]></content>
-    <tabTrigger>search</tabTrigger>
+    <tabTrigger>odoo_search</tabTrigger>
     <scope>text.xml</scope>
     <description>Common search tag to be added inside a ir.ui.view</description>
 </snippet>

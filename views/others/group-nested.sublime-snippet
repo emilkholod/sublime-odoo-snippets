@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<group string="$1" name="${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}">
+    <group>
+        <field name="$2"/>
+    </group>
+    <group>
+        <field name="$3"/>
+    </group>
+</group>
+]]></content>
+    <tabTrigger>odoo_group_nested</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Add nested group tags</description>
+</snippet>

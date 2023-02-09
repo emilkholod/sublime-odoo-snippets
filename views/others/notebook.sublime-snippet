@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<notebook>
+    <page string="$1">
+        <group>
+            <field name="$2"/>
+        </group>
+    </page>
+</notebook>
+]]></content>
+    <tabTrigger>odoo_notebook</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Add notebook tag</description>
+</snippet>

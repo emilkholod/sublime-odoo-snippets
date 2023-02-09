@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<group>
+    <field name="$1"/>${0}
+</group>
+]]></content>
+    <tabTrigger>odoo_group</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Add group tag</description>
+</snippet>

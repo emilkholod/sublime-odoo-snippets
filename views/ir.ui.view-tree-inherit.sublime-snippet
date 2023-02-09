@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+<record id="${1:xml_id}_view_tree" model="ir.ui.view">
+    <field name="name">${2:model-name}.view.tree</field>
+    <field name="model">${2:model-name}</field>
+    <field name="inherit_id" ref="${3:module-name}.${1:xml_id}"/>${4:
+    <field name="mode">primary</field>}
+    <field name="arch" type="xml">${10:
+        <field name="${11}" position="${12}">
+            ${13}
+        </field>}${20:
+        <xpath expr="//field[@name='$21']" position="attributes">
+            <attribute name="22">$23</attribute>
+        </xpath>}${0}
+    </field>
+</record>
+]]></content>
+    <tabTrigger>odoo_tree_inherit</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Common tree tag to be added inside a ir.ui.view</description>
+</snippet>

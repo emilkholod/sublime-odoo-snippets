@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+<header>
+    <button name="$1"
+            type="$2"
+            string="$3"
+            class="oe_highlight"
+            context="..."
+            options="..."
+            states="..."
+    />
+    ${0}
+    <field name="state"
+           widget="statusbar"
+           statusbar_visible="$5"
+           statusbar_colors="{'KEY_IS_STATE':'VALUE_IS_COLOR'}"
+    />
+</header>
+]]></content>
+    <tabTrigger>odoo_form_header</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Add header tag</description>
+</snippet>

@@ -2,6 +2,6 @@
     <content><![CDATA[
 <attribute name="${1:field_name}">${2:value}</attribute>${0}
 ]]></content>
-    <tabTrigger>attribute</tabTrigger>
+    <tabTrigger>odoo_attribute</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

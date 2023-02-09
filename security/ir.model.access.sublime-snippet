@@ -11,9 +11,7 @@
     <field name="active" eval="${7:True}"/>
 </record>${0}
 ]]></content>
-    <tabTrigger>ir.model.access</tabTrigger>
+    <tabTrigger>odoo_ir_model_access</tabTrigger>
     <scope>text.xml</scope>
     <description>XML ir.model.access record</description>
 </snippet>
-
-

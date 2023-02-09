@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<menuitem id="menu_$1"
+          name="$2"
+          parent="$3"
+          sequence="$4"
+/>
+]]></content>
+    <tabTrigger>odoo_menuitem_category</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Menu with category</description>
+</snippet>

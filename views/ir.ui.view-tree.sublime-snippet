@@ -1,10 +1,16 @@
 <snippet>
     <content><![CDATA[
-<tree string="${1:Caption}" create="${2:1}" delete="${3:1}" edit="${4:1}"${6: editable="${5:top}"}>
-    ${0}
-</tree>
+<record id="${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_view_tree" model="ir.ui.view">
+    <field name="name">${1}.view.tree</field>
+    <field name="model">${1:model.name}</field>
+    <field name="arch" type="xml">
+        <tree string="$10">
+            <field name="$11"/>${0}
+        </tree>
+    </field>
+</record>
 ]]></content>
-    <tabTrigger>tree</tabTrigger>
+    <tabTrigger>odoo_tree</tabTrigger>
     <scope>text.xml</scope>
     <description>Common tree tag to be added inside a ir.ui.view</description>
 </snippet>

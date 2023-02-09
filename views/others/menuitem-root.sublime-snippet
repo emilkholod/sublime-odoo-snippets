@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<menuitem id="menu_$1" name="$2" sequence="$3"/>
+]]></content>
+    <tabTrigger>odoo_menuitem_root</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Menu with root</description>
+</snippet>

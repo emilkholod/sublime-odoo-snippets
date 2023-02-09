@@ -94,7 +94,7 @@
     <field name="parent_id" ref="${6/(.)/\1/g}"/>
 </record>
 ]]></content>
-    <tabTrigger>fullview</tabTrigger>
+    <tabTrigger>odoo_fullview</tabTrigger>
     <scope>text.xml</scope>
     <description>Views: tree, form, search; act_window and menu</description>
 </snippet>

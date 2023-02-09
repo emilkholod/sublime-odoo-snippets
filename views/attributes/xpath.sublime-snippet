@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-<xpath expr="${1://field[@name='name']}" position="${2:after}">
+<xpath expr="${1://field[@name='name']}" position="replace|inside|before|after|attributes">
     ${0}
 </xpath>
 ]]></content>
-    <tabTrigger>xpath</tabTrigger>
+    <tabTrigger>odoo_xpath</tabTrigger>
     <scope>text.xml</scope>
     <description>Common xpath tag to be added inside a ir.ui.view</description>
 </snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<field name="$10" position="replace|inside|before|after|attributes">
+    ${0}
+</field>
+]]></content>
+    <tabTrigger>odoo_field_inherited</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

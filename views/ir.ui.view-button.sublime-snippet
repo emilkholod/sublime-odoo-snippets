@@ -1,15 +1,20 @@
 <snippet>
     <content><![CDATA[
 <button name="${1:function_name}"
+        class="oe_highlight"
         string="${2:string}"${4:
         type="${3:object}"}${5:
         special="cancel"}${7:
         default_focus="${6:0}"}${9:
         icon="${8:gtk-apply}"}${11:
         confirm="${10:message}"}${13:
-        help="${12:message}"}/>
+        help="${12:message}"}
+        context="..."
+        options="..."
+        states="..."
+/>${0}
 ]]></content>
-    <tabTrigger>button</tabTrigger>
+    <tabTrigger>odoo_button_full</tabTrigger>
     <scope>text.xml</scope>
         <description>Common button tag definition</description>
 </snippet>
