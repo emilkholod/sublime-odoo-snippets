@@ -5,7 +5,7 @@ def ${3/((^[A-Z])|([^a-zA-Z]))/(?2:\l$2)(?3:\_)/g}(self${7:, **kw}):
     '''
     TODO:
     '''
-    pass${0}
+    ${0:...}
 ]]></content>
     <tabTrigger>odoo_route</tabTrigger>
     <scope>source.python</scope>

@@ -13,7 +13,7 @@ class ${1:ControllerName}(Controller):
         '''
         TODO:
         '''
-        pass${0}
+        ${0:...}
 ]]></content>
     <tabTrigger>odoo_controller_class</tabTrigger>
     <scope>source.python</scope>

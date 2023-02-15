@@ -16,7 +16,7 @@ class ${1:ModelName}(TransactionCase):
     def test_${3:item_name}(self):
         """ Checks if the ${3} works properly """
 
-        ${0:pass}
+        ${0:...}
 ]]></content>
     <tabTrigger>TransactionCase</tabTrigger>
     <scope>source.python</scope>

@@ -4,7 +4,7 @@ def test_${1:item_name}(self):
     """ Checks if the ${1} works properly
     """
 
-    ${0:pass}
+    ${0:...}
 ]]></content>
     <tabTrigger>test</tabTrigger>
     <scope>source.python</scope>

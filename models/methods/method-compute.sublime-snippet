@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-@api.depends('${1:depends}')
+@api.depends('${1:field}')
 def _compute_${2:field}(self):
     for ${3:record} in self:
-        pass
+        ${0:...}
 ${0}
 ]]></content>
     <tabTrigger>odoo_compute</tabTrigger>
