@@ -3,7 +3,7 @@
 <menuitem id="${1:model_name}_menu"
           action="${1:model_name}_action"
           parent="${2:module_name.menu_parent_id}"
-          name="${3:"Menu name"}${10:
+          name=${3:"Menu name"}${10:
           groups="${11}"}${15:
           sequence="${16:10}"}
 />

@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+# TODO: Remove it!
+from odoo.sql_db import Cursor
+
+def execute(self, query, params=None, log_exceptions=None):
+
+    if "model_name" in query:
+
+        # TODO: Remove it!
+        import wdb; wdb.set_trace()
+
+    return super_execute(self, query, params, log_exceptions)
+super_execute = Cursor.execute
+Cursor.execute = execute
+]]></content>
+    <tabTrigger>cursor_debug_execute</tabTrigger>
+    <scope>source.python</scope>
+    <description>Debug execute</description>
+</snippet>
