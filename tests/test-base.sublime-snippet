@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+from odoo.tests.common import Form, SavepointCase, tagged
+from odoo.tools import mute_logger
+
+
+@tagged("-at_install", "post_install", ${10:""})
+class ${20}(SavepointCase):
+    @classmethod
+    def setUpClass(cls):
+        super().setUpClass()
+        ${30:...}
+
+    def test_${40:item_name}(self):
+        ${0:...}
+
+]]></content>
+    <tabTrigger>odoo_test</tabTrigger>
+    <scope>source.python</scope>
+    <description>Test case method</description>
+</snippet>

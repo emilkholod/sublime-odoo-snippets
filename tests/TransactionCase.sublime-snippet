@@ -18,6 +18,6 @@ class ${1:ModelName}(TransactionCase):
 
         ${0:...}
 ]]></content>
-    <tabTrigger>TransactionCase</tabTrigger>
+    <tabTrigger>odoo_transaction_case</tabTrigger>
     <scope>source.python</scope>
 </snippet>
